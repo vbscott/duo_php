@@ -12,7 +12,7 @@ class DuoTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $request_sig = \Duo\Web::signRequest(
+$request_sig = \Duo\Web::signRequest(
             self::IKEY,
             self::SKEY,
             self::AKEY,
